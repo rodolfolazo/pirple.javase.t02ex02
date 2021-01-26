@@ -17,14 +17,20 @@ public class T02ex02 {
     public static void main(String[] args) {
         // Aquí vamos a ver la máxima capacidad de int
         // -2147483648 <= integer <= 2147483647
+        // Output de máxima capacidad de integer
+        
         int x = 2147483647;
         int y = 2147483647;
+        int z = 7;
+        
         x = x + 1;
         System.out.println(x);
         System.out.println(++y);
         System.out.println(y+1);
         
-        // Si hacemos un x = x + 1
+        //Output de uso de operadores unarios ++z , z++
+        System.out.println(z++);
+        System.out.println(++z);
     }
     
 }
